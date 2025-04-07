@@ -1,5 +1,5 @@
 use matchstick::equation::{Equation, EquationPattern};
-use matchstick::puzzle::{Puzzle, PuzzleGenerator, Riddle};
+use matchstick::puzzle::{Puzzle, puzzle_generator::PuzzleGenerator, riddle::Riddle};
 use matchstick::symbol::{Symbol, SymbolFilter};
 
 fn main() {
