@@ -13,7 +13,7 @@ impl Solution {
     }
 }
 
-/// Wraps [`Solution`]s of a [`Riddle`]
+/// Wraps [`Solution`]s of a [`super::Riddle`]
 #[derive(Debug, PartialEq)]
 pub enum SolutionWrapper {
     NotYetSet,
