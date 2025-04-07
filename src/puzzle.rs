@@ -5,7 +5,7 @@ pub mod solution;
 use riddle::Riddle;
 use solution::SolutionWrapper;
 
-/// Holds the [`Riddle`] and the [`SolutionWrapper`] containing the [`Solution`]
+/// Holds the [`Riddle`] and the [`SolutionWrapper`] containing the [`solution::Solution`]
 #[derive(Debug, PartialEq)]
 pub struct Puzzle {
     riddle: Riddle,
@@ -42,9 +42,9 @@ impl Puzzle {
         }
     }
 
-    /// Programmatically find solution in form of [`Equation`]s fitting to the [`Riddle`] of this [`Puzzle`]\
+    /// Programmatically find solution in form of [`crate::equation::Equation`]s fitting to the [`Riddle`] of this [`Puzzle`]\
     /// The found solution is set\
-    /// Returns number of found solution [`Equation`]s
+    /// Returns number of found solution [`crate::equation::Equation`]s
     /// ```
     /// # use matchstick::equation::Equation;
     /// # use matchstick::puzzle::Puzzle;
@@ -88,7 +88,7 @@ impl Puzzle {
         }
     }
 
-    /// The [`Solution`] of the [`Puzzle`] is set to given, arbitrary value
+    /// The [`solution::Solution`] of the [`Puzzle`] is set to given, arbitrary value
     /// ```
     /// # use matchstick::equation::Equation;
     /// # use matchstick::puzzle::Puzzle;
