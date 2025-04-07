@@ -1,0 +1,8 @@
+[package]
+name = "matchstick"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+evalexpr = "12.0.2"
+itertools = "0.14.0"
